@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+}
+
+.display {
+  width: 100%;
+  color: gray;
+  padding: 18px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+
+button {
+  padding: 0;
+  border: 0.5px solid #888888;
+  background: none;
+  flex: 1 33%;
+  padding: 10px;
+  font-size: 1.5em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.num {
+  background-color: #efefef;
+}
+
+.action {
+  background-color: #efefef;
+}
+
+.num:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.action:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}

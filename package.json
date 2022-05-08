@@ -1,0 +1,18 @@
+{
+  "name": "odoo-interview-assignment-madhulika-sharma",
+  "version": "1.0.0",
+  "description": "Assignment for Odoo Interview",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Madhulika Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
