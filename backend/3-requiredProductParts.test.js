@@ -15,7 +15,7 @@ test("Required Product Parts Valid", () => {
   expect(JSON.stringify(result)).toBe(JSON.stringify(expectedSolution));
 });
 
-test("Required Product Parts Recursive Individual Test", () => {
+test("Required Product Parts Individual Test", () => {
   const result = requiredProductParts("F", parts);
   const expectedSolution = { F: 1 };
   expect(JSON.stringify(result)).toBe(JSON.stringify(expectedSolution));
